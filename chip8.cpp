@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <string>
 #include <cstring>
 #include <SDL2/SDL.h>
 #include "chip8.h"
@@ -89,7 +88,7 @@ void Chip8::ch8_7XNN(){
 
 void Chip8::ch8_ANNN(){
 	this->index = opcode & 0x0FFF;
-	std::cout << this->index;
+	//std::cout << this->index;
 }
 
 void Chip8::ch8_DXYN(){
