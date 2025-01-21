@@ -3,7 +3,6 @@
 #include <string>
 #include <cstring>
 #include <SDL2/SDL.h>
-#include <cstdio>
 #include "chip8.h"
 
 Chip8::Chip8(){
