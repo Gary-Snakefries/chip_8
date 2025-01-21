@@ -1,3 +1,8 @@
+Requires SDL2 library to compile and run.
+
+Compilation can be done through the command line using
+"g++ main.cpp chip8.cpp -lSDL2" without the quotes.
+
 Currently Implemented:
 - Instruction 00E0
 - Instruction 1NNN
